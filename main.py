@@ -1,4 +1,3 @@
-
 # ------------------------------------------------ #
 '''sum_of_two_names'''
 
@@ -238,12 +237,9 @@ print(three_es("eeee"))
   
   Your function should test for proper src_port ranges:
     if an int smaller than 0 or larger than 65535 is given for either the src or dst port, your function should return "Error: Incorrect port number given for src_port: <src_port>"
-
   Your function should test for proper dst_port ranges:
     if an int smaller than 0 or larger than 65535 is given for either the src or dst port, your function should return "Error: Incorrect port number given for dst_port: <dst_port>"
-
   If everything is formatted correctly, your function should create a log entry and return it in the format:
-
 "<date> | <ip_addr> | <proto> | <src_port> | <dst_port>"'''
 
 
@@ -285,9 +281,7 @@ print(log_generator('08-16-1998', '192.168.1.1', 'UDP', -1, 80))
 '''
 2. ASCII BATTLE OF THE B AND P CHARACTER CLANS
   The Bs and the Ps are two warring ASCII Character Clans and they cannot decide who is the better ASCII Character Clan. The B's think they are better because they have an even number of humps, while the Ps think their odd number of humps are more artistically pleasing.
-
   Write a function Bs_or_Ps that takes a string battle as an argument, that only contains the characters "B" and "P" (capitalization counts) in varying amounts.
-
   If there are more Bs than Ps, return "The B Character Clan is victorious!"
   If there are more Ps than Bs, return "The P Character Clan is victorious!"
   In the event of a tie:
