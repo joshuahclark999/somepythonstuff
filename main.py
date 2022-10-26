@@ -4,8 +4,7 @@
 def sum_of_two_nums(num_1, num_2):
   sum = num_1 + num_2
   return sum
-
-
+  
 print(sum_of_two_nums(6, 4))
 
 # Define a function named greater_than_ten, which takes in an integer and returns True if the number is greater than 10 and False if the number is less than 10.
